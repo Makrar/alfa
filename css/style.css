@@ -3,10 +3,158 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Play', sans-serif;
 }
 
 html, body {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 1540px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.news-title {
+    color: #223050;
+    line-height: 21px;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 36px;
+    margin-top: 10px;
+
+}
+
+.news-link {
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4AA4FF;
+    text-decoration: none;
+    border-bottom: 2px solid #4AA4FF;
+}
+
+.row {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.card {
+    
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.col-1 {
+    flex: 0 0 8.333%;
+    max-width: 8.333%;
+}
+
+.col-2 {
+    flex: 0 0 16.666%;
+    max-width: 16.666%;
+}
+
+.col-3 {
+    flex: 0 0 23.076%;
+    max-width: 23.076%;
+}
+
+.col-4 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+}
+
+.col-5 {
+    flex: 0 0 41.666%;
+    max-width: 41.666%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.333%;
+    max-width: 58.333%;
+}
+
+.col-8 {
+    flex: 0 0 66.666%;
+    max-width: 66.666%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 83.333%;
+    max-width: 83.333%;
+}
+
+.col-11 {
+    flex: 0 0 91.666%;
+    max-width: 91.666%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.news-item {
+    display: flex;
+    background-color: #EAEEFC80;
+    padding: 20px;
+}
+
+.news-item__content {
+}
+
+.news-item__date {
+    display: inline-block;
+    color: #0085FF;
+    padding: 8px;
+    background-color: white;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.news-item__title {
+    color: #101213;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.news-item__discription {
+    color: #272B30;
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.news-item__link {
+    color: #4AA4FF;
+    text-decoration: none;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #4AA4FF;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    
 }
